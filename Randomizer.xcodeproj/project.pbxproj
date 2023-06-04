@@ -13,6 +13,7 @@
 		C0F3ABB52A2CD0D900464D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F3ABB32A2CD0D900464D66 /* Main.storyboard */; };
 		C0F3ABB72A2CD0DA00464D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F3ABB62A2CD0DA00464D66 /* Assets.xcassets */; };
 		C0F3ABBA2A2CD0DA00464D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F3ABB82A2CD0DA00464D66 /* LaunchScreen.storyboard */; };
+		C0F3ABC22A2CE1BF00464D66 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F3ABC12A2CE1BF00464D66 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C0F3ABB62A2CD0DA00464D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0F3ABB92A2CD0DA00464D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0F3ABBB2A2CD0DA00464D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F3ABC12A2CE1BF00464D66 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C0F3ABAD2A2CD0D900464D66 /* AppDelegate.swift */,
 				C0F3ABAF2A2CD0D900464D66 /* SceneDelegate.swift */,
 				C0F3ABB12A2CD0D900464D66 /* ViewController.swift */,
+				C0F3ABC12A2CE1BF00464D66 /* SettingsViewController.swift */,
 				C0F3ABB32A2CD0D900464D66 /* Main.storyboard */,
 				C0F3ABB62A2CD0DA00464D66 /* Assets.xcassets */,
 				C0F3ABB82A2CD0DA00464D66 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				C0F3ABB22A2CD0D900464D66 /* ViewController.swift in Sources */,
 				C0F3ABAE2A2CD0D900464D66 /* AppDelegate.swift in Sources */,
 				C0F3ABB02A2CD0D900464D66 /* SceneDelegate.swift in Sources */,
+				C0F3ABC22A2CE1BF00464D66 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuriyluka.Randomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuriyluka.Randomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
