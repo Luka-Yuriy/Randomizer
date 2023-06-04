@@ -91,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="1008.3969465648854" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="m7t-1I-t4R">
             <objects>
-                <viewController id="usG-ne-aGt" sceneMemberID="viewController">
+                <viewController id="usG-ne-aGt" customClass="SettingsViewController" customModule="Randomizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KCM-D6-sMP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -130,6 +130,9 @@
                                         <state key="normal" title="Cancel">
                                             <color key="titleColor" systemColor="systemRedColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="cancelButtonPressed" destination="usG-ne-aGt" eventType="touchUpInside" id="gFL-1R-bQT"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -145,6 +148,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="MWs-Dw-Cca"/>
+                    <connections>
+                        <outlet property="maximumValueTF" destination="M4W-p7-Oid" id="Osk-gc-ouT"/>
+                        <outlet property="minimumValueTF" destination="Cej-na-FwF" id="TCF-MB-yBV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VIf-XK-Lfg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
